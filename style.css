@@ -28,3 +28,25 @@ height: 100px;
 margin-top: -40px;
 }
 
+
+.afspraak-button {
+  position: absolute;
+  left: 32px;
+  bottom: 200px;
+  background-color: #A8DEFF;
+  color: #000000;
+  padding: 25px 180px;
+  border: none;
+  border-radius: 32px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: background 0.2s;
+  z-index: 1000;
+}
+
+.afspraak-button:hover {
+  background-color: #ffffff;
+}
+
